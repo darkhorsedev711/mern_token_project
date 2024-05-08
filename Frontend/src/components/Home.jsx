@@ -52,19 +52,34 @@ const Home = () => {
           <div className="token-table-container">
             <table>
               <tr>
-                <th>Firstname</th>
-                <th>Lastname</th>
-                <th>Savings</th>
+                <th>Validation Time</th>
+                <th>Used Typeform</th>
+                <th>Day of Transform</th>
+                <th>Q1</th>
+                <th>Q2</th>
+                <th>Q3</th>
+                <th>Q4</th>
+                <th>Q5</th>
+                <th>Submited Time</th>
               </tr>
               <tr>
-                <td>Peter</td>
-                <td>Griffin</td>
-                <td>$100</td>
+                <td rowSpan="2">Typeform</td>
+                <td rowSpan="2">May 01</td>
+                <td>Q1 A</td>
+                <td>Q2 A</td>
+                <td>Q3 A</td>
+                <td>Q4 A</td>
+                <td>Q5 A</td>
+                <td>Submit A</td>
               </tr>
               <tr>
-                <td>Lois</td>
-                <td>Griffin</td>
-                <td>$150</td>
+                <td>May 02</td>
+                <td>Q1 B</td>
+                <td>Q2 B</td>
+                <td>Q3 B</td>
+                <td>Q4 B</td>
+                <td>Q5 B</td>
+                <td>Submit B</td>
               </tr>
             </table>
           </div>
